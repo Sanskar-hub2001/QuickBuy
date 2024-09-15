@@ -15,7 +15,7 @@ const LoginSignup = () => {
 
   const login = async () => {
     let responseData;
-    await fetch("https://quikmart-iyy6.onrender.com/login", {
+    await fetch("https://quickbuy-b8c7.onrender.com/login", {
       method: "POST",
       headers: {
         Accept: "application/form-data",
@@ -38,7 +38,7 @@ const LoginSignup = () => {
 
   const signup = async () => {
     let responseData;
-    await fetch("https://quikmart-iyy6.onrender.com/signup", {
+    await fetch("https://quickbuy-b8c7.onrender.com/signup", {
       method: "POST",
       headers: {
         Accept: "application/form-data",
